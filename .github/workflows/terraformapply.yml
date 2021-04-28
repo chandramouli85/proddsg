@@ -8,7 +8,7 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
 
-     env:
+    env:
       ARM_CLIENT_ID: 9ae3847d-fba1-4eb3-a7d2-78779638840e
       ARM_CLIENT_SECRET: ${{secrets.TF_ARM_CLIENT_SECRET}}
       ARM_SUBSCRIPTION_ID: 3c286043-98c2-4679-aa9a-de40490ad27a
